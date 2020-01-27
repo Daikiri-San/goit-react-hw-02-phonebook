@@ -5,11 +5,9 @@ import Filter from './Filter';
 import Layout from './Layout';
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
-import '../css/fonts.css';
-import '../css/base.css';
+import '../base.css';
 
 const Title = styled.h1`
-  font-family: var(--secondary-font);
   font-size: 4rem;
   margin-bottom: 3rem;
 `;
@@ -19,7 +17,6 @@ const Text = styled.p`
 `;
 
 const SemiTitle = styled.h2`
-  font-family: var(--secondary-font);
   font-size: 4rem;
   margin-bottom: 3rem;
 `;
